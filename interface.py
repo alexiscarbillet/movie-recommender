@@ -1,5 +1,4 @@
 # author: ALEXIS CARBILLET
-# how to erase what was written before? 
 
 # import librairies
 import tkinter as tk
