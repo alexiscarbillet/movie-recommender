@@ -479,7 +479,7 @@ def controler(): # here is our controler which create the link between the GUI a
         movies = movies.sort_values('est', ascending=False)
         x=movies.head(5)
 
-    
+    print(x)
     if(u=="" and v==""): # if no title nor user id: maybe categories selected
         var=[]
         if(check1.getvar(str(check1.cget("variable")))=='1'):
